@@ -110,4 +110,13 @@ footer {
     .logo-img {
         width: 10%;
     }
+
+    .pricing-container {
+        max-height: max-content;
+    }
+
+    .plan-features {
+        text-align: left;
+        padding: 0px;
+    }
 }
