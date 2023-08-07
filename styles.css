@@ -96,6 +96,10 @@ footer {
 /****************************************/
 
 @media (max-width: 910px) {
+body {
+        margin: 5% 10% 0% 10%;;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -108,7 +112,14 @@ footer {
     }
 
     .logo-img {
-        width: 10%;
+        width: 30% !important;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 
     .pricing-container {
