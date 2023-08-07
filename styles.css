@@ -96,7 +96,7 @@ footer {
 /****************************************/
 
 @media (max-width: 910px) {
-body {
+    body {
         margin: 5% 10% 0% 10%;;
     }
 
@@ -122,8 +122,20 @@ body {
 
     }
 
+    .title {
+        font-size: 1rem;
+    }
+
+    .subtitle {
+        font-size: 0.5rem;
+    }
+
     .pricing-container {
         max-height: max-content;
+    }
+
+    .plan-title {
+        font-size: 1.5rem;
     }
 
     .plan-features {
